@@ -135,8 +135,7 @@ namespace PekaraWeb
             conn.Open();
             comm.ExecuteNonQuery();
             conn.Close();
-        }
-        
+        }        
         public void Promena_radnog_mesta(int id_radnik, int id_lokacija)
         {
             conn.ConnectionString = CS;

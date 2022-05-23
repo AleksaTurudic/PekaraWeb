@@ -12,7 +12,6 @@ namespace PekaraWeb
         protected void Page_Load(object sender, EventArgs e)
         {
             UtilityClass klasa = new UtilityClass();
-            klasa.Update_korisnika("jala@gmail.com", "1234");
         }
     }
 }
